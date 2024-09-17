@@ -337,20 +337,20 @@ Before running the command:
 
 ## Automated Method
 
-1. Move the file `check_balances.sh` to the `cli` directory.
+1. Move the file `check_tokens.sh` to the `cli` directory.
 
-2. Edit the file `check_balances.sh` and replace by replacing `<PATH_TO_FILE>` and the `PATH_TO_X_KEYPAIR`s with the appropriate values.
+2. Edit the file `check_tokens.sh` and replace by replacing `<PATH_TO_FILE>` and the `PATH_TO_X_KEYPAIR`s with the appropriate values.
 
 3. Make the file executable.
 
     ```bash
-    chmod +x check_balances.sh
+    chmod +x check_tokens.sh
     ```
 
 4. Run the script.
 
     ```bash
-    ./check_balances.sh
+    ./check_tokens.sh
     ```
 
 ---
